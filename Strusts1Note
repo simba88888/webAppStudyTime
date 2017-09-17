@@ -1,0 +1,28 @@
+yesterday,I read a vidio about javaee famework of strusts1.The belowing is my study note.
+1\MVC review:
+  m:model -------about operate DB,and javabean,Dao laday.
+  V:view --------about jsp or html,js,css.dispaly program s imformation in a eyeing.
+  C:control------about servlet.this is get the request,and by this logic code,deal with date.and response the jsp or html.
+  
+  advantage ： this make distinct between the backstage code and the front end.the logic is very clear.
+          but it alse has a little insufficent habits.for example,It codes the big program with a complex.and strusts1 have some 
+          advantage.
+ 2\structs1 distribution request and config.
+      structs1 likes a big serlvet class.
+      it recieve a request by encapsulation a javabean.
+      then action deal with the javabean,if the request is not error.
+      by the config about web.xml,pro-config.xml,get the servletaction and path\the response.
+      finaly,by the view delay,display the jsp.      
+ 3\information of config
+    path:folder is pathcontext.
+    config:choose a config in need.
+    *:this is dynatic matching.
+ 4\structs pro s config
+    copy the lib folder---------.jar.
+    web.xml.
+ 5\exmple about login.
+  www.china.strustsdemo.user.web.strusts.actions--------package
+  RegUserUI ------class name---extents strusts.action
+ 6\actionMapping class 
+   reflect a config document.<action>context</action>
+   
