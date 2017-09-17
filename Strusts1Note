@@ -36,3 +36,13 @@ yesterday,I read a vidio about javaee famework of strusts1.The belowing is my st
     relize url encoded.
     requset.setAttribute("name",value);//value=object\value
     <html:link action="/abc" paramid="username" paramName="name">
+    <paramid="t" paramName="now" paramproperties="">
+    {
+      Map map = new HashMap();
+      map.put("1","2");
+      map.put("2","23");
+      map.put("3","233");
+      map.put("4","2333");
+      request.setAttribute("person",map);
+    }
+    <html:link action="/abc" name="person">
