@@ -25,4 +25,14 @@ yesterday,I read a vidio about javaee famework of strusts1.The belowing is my st
   RegUserUI ------class name---extents strusts.action
  6\actionMapping class 
    reflect a config document.<action>context</action>
-   
+ 7\el examption or url;
+    in the web.xml,path is in server path.
+    in the config.xml,pah is in home and sever path.http:demo/fist------<action path="/fist" </action>
+    int the folder.jsp,path is in website.
+    int 2.2,el is defaultly true display.in before 2.2 version,el is defaulty display.
+  8\html:link porperties
+    this is one of strusts el brilary.
+    <html:link action="/action">   this can add additional jessessionID.
+    relize url encoded.
+    requset.setAttribute("name",value);//value=object\value
+    <html:link action="/abc" paramid="username" paramName="name">
