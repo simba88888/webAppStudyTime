@@ -52,5 +52,10 @@ yesterday,I read a vidio about javaee famework of strusts1.The belowing is my st
       request.setAttribute('depts',depts);
       Departmetn.getId()/getName();
       <html:optionsCollection name="depts" property="departments" value="id" label="name"/>
+    10\logic:forward
+      <logic:forward name="registerui">
+      <global-forwards>
+        <forward name="registerui" path="/RegUserUI.htm"></forward>
+      </global-forwards>
       
     
