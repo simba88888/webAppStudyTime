@@ -46,3 +46,5 @@ yesterday,I read a vidio about javaee famework of strusts1.The belowing is my st
       request.setAttribute("person",map);
     }
     <html:link action="/abc" name="person">
+    scope
+    
