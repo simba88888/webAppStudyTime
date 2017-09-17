@@ -57,5 +57,7 @@ yesterday,I read a vidio about javaee famework of strusts1.The belowing is my st
       <global-forwards>
         <forward name="registerui" path="/RegUserUI.htm"></forward>
       </global-forwards>
+     11、logic:redirect
+      
       
     
