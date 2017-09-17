@@ -58,6 +58,10 @@ yesterday,I read a vidio about javaee famework of strusts1.The belowing is my st
         <forward name="registerui" path="/RegUserUI.htm"></forward>
       </global-forwards>
      11、logic:redirect
-      
+     12、html:rewrite
+      <form action="html:rewrite /RegUserUI"></form>
+     13、formbean 
+      by formbean get the form date.
+     14\
       
     
