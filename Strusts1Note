@@ -47,4 +47,10 @@ yesterday,I read a vidio about javaee famework of strusts1.The belowing is my st
     }
     <html:link action="/abc" name="person">
     scope
+    9\optionCollection
+      depts= copcration.getDepartments();
+      request.setAttribute('depts',depts);
+      Departmetn.getId()/getName();
+      <html:optionsCollection name="depts" property="departments" value="id" label="name"/>
+      
     
