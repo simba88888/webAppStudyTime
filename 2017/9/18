@@ -1,0 +1,11 @@
+today,I m very happy,because ide is successfully builded. the ide is "idea",the name which i never known.
+
+java.util.regex.Patter.compile("regex");
+Matcher patter.macther(value);
+
+and System.ArrayCopy( Object src, int srcPos, Object dest, int destPos, int length );
+src:the source array
+srcpos:starting position in the source array
+dest: the destination array.
+destpos:starting positon in the destination data.
+length:is copy length.
