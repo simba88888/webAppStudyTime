@@ -1,0 +1,3 @@
+the hibernate view:
+   hibernate manages the javabean,trancation,international talking the database.
+   by configue the hibernate.cfg.xml and ***.hbm.xml.ehcashe.xml'
